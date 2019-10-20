@@ -6,6 +6,7 @@ int main() {
 
 	int n;
 	cin >> n;
+	// this is a constructive algorithmic codeforces problem it has O(n) time complexity
 	int a[n], b[n], c[n];
 	if (n & 1) {
 		int j = n / 2;
