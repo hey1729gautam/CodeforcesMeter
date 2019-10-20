@@ -24,7 +24,7 @@ int main () {
 	for (int i = 0; i < n; i++) {
 		c[i] = abs (a[i] - b[i]);
 	}
-
+	// It is STL sorting which uses a combination of different sorting algo depending upon data set
 	sort (c, c + n);
 	int sum = 0, e = 0;
 	for (int i = 1; i < n; i++) {
