@@ -17,6 +17,7 @@
     }	
     else {
     	ll z = INT_MAX;
+      // This is a beautiful piece of code I like it hehehehe
     	for(ll i = L; i <= R; i++) {
     		for(ll j = L; j <= R; j++) {
     			if(i == j) 
