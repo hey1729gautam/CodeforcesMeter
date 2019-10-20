@@ -64,13 +64,12 @@ int main() {
 	int x = odd & 1;		// Player Number turn, if n=1 == 1st Player		n=0 == 2nd Player
 	int y = sizeof(a) & 1;
 	//dbgm(x, y);
-
 	if (odd == 1 || odd == 0)
 	{
 		cout << "First" << endl;
 	    return 0;
 	}
-
+	// This is bitwise xor to determine the game value to be employed to the winner
 	int z = x ^ y;
 
 	if (z) {
