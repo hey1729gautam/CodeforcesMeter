@@ -1,2 +1,2 @@
 # CodeforcesMeter
-This determines your live rating during your contest.
+This is collection of solutions that were solved by me in live contests.
